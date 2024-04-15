@@ -1,0 +1,8 @@
+INFO    2024-04-15 10:54:14,697 [http-nio-8080-exec-3] com.prep.angular.controller.StudentController  -List of Student objects obtained from UI and passing through controller towards Service
+INFO    2024-04-15 10:54:14,704 [http-nio-8080-exec-3] com.prep.angular.service.StudentService  -List of Student objects obtained from Controller and passing through Service towards DAO
+INFO    2024-04-15 10:54:14,823 [http-nio-8080-exec-3] com.prep.angular.dao.StudentDao  -List of Student objects obtained from Service and passing through DAO into database
+INFO    2024-04-15 10:55:20,697 [http-nio-8080-exec-2] com.prep.angular.controller.StudentController  -List of Student objects obtained from Service and passing through controller towards UI
+INFO    2024-04-15 10:55:20,705 [http-nio-8080-exec-2] com.prep.angular.service.StudentService  -List of Student objects obtained from DAO and passing through Service towards Controller
+INFO    2024-04-15 10:55:20,705 [http-nio-8080-exec-2] com.prep.angular.dao.StudentDao  -List of Student objects obtained from database and passing through DAO towards Service
+INFO    2024-04-15 10:56:52,075 [http-nio-8080-exec-1] com.prep.angular.controller.StudentController  -List of Student objects obtained from UI and passing through controller towards Service
+ERROR   2024-04-15 10:56:52,078 [http-nio-8080-exec-1] com.prep.angular.service.StudentService  -ERROR: Student above age 18 found. Please re-enter the correct details!!!
